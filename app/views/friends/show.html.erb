@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @friend.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @friend.email %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @friend.comment %>
+</p>
+
+<%= link_to 'Edit', edit_friend_path(@friend) ,class:"cool-a-tag-2"%> |
+<%= link_to 'Back', friends_path ,class:"cool-a-tag-1"%>

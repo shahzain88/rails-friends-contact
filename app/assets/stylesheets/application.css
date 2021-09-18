@@ -1,0 +1,142 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e6e6e6;
+	color: #404040;
+	letter-spacing:2px;
+	min-width: 100%;
+}
+
+ .card-3d{
+ 	box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+ 	border-radius: 10px;
+ 	padding: 20px;
+ 	margin: 20px;
+ 	width: fit-content;
+ }
+
+ .text-center{
+ 	text-align: center;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .max-width-hight{
+ 	max-width: 100%;
+ 	max-height: 100%;
+ }
+.ul-li-aliner li{
+	display:inline-block;
+	padding: 0 10px
+}
+
+.to-inline-block{
+	display: inline-block;
+}
+.banner{
+	padding-left: 40px;
+	display: block;
+	border: 1px solid #333333;
+	background-color: #333333;
+}
+
+.col-white{
+	color:#e6e6e6; 
+}
+
+
+
+.cool-a-tag-1{
+	text-decoration: none;
+	color: #84a3e1;
+}
+
+
+.cool-a-tag-1:hover{
+	color: #333333;
+	border: 1px solid  #333333;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #F0F8FF;
+}
+.cool-a-tag-2{
+	text-decoration: none;
+	border: 1px solid #00e6ac;
+	border-radius: 5px;
+	color: #00e6ac;
+	padding: 5px;
+	margin: 2px 0;
+}
+.cool-a-tag-2:hover{
+	color: #FF6347;
+	border: 1px solid #CD5C5C;
+}
+
+.cool-a-tag-3{
+	text-decoration: none;
+	color: #666666;
+}
+
+
+.cool-a-tag-3:hover{
+	color: #333333;
+	border: 1px solid #F0F8FF;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #F0F8FF;
+}
+.logo-tag{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #e6e6e6;
+}
+.logo-tag:hover{
+	color: #e6e6e6;
+	border: 1px solid #333333;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #333333;
+}
+
+table {
+
+  border-collapse: collapse;
+  max-width: 400px;
+  margin: 50px; 
+	
+  border: 1px solid #333333;
+
+  border-radius: 15px;
+  overflow:hidden;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+th,td{
+	padding: 8px;
+	text-align: left;
+	border: 1px solid #cccccc;
+
+}
+th{
+	padding: 13px;
+	background: #262626;
+	color: #e6e6e6;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
